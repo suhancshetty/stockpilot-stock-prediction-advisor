@@ -1,0 +1,3 @@
+"""
+StockPilot Test Suite.
+"""

@@ -1,0 +1,42 @@
+===================================================================
+ STOCKPILOT MACHINE LEARNING & RISK EVALUATION REPORT
+===================================================================
+Generated At      : 2026-10-23 20:30:15
+Target Symbol     : AAPL
+Data Source       : Yahoo Finance (AAPL, period: 1y)
+Usable Sessions   : 247
+Train/Test Split  : 80% Train (197 obs) / 20% Test (50 obs)
+-------------------------------------------------------------------
+ MODEL PERFORMANCE METRICS (CHRONOLOGICAL TEST SET)
+-------------------------------------------------------------------
+Selected Best Model: Linear Regression
+
+Linear Regression:
+  - Mean Absolute Error (MAE)       : 3.1859
+  - Root Mean Squared Error (RMSE)  : 4.1601
+  - Mean Absolute Pct Error (MAPE)  : 0.97%
+
+Random Forest Regressor:
+  - Mean Absolute Error (MAE)       : 6.5272
+  - Root Mean Squared Error (RMSE)  : 7.8422
+  - Mean Absolute Pct Error (MAPE)  : 1.95%
+
+-------------------------------------------------------------------
+ NEXT SESSION PRICE ESTIMATE
+-------------------------------------------------------------------
+Latest Recorded Close  : 347.74
+Projected Next Close   : 346.71
+Estimated Change       : -1.03 (-0.30%)
+Directional Sentiment  : DOWN 📉
+Model Summary Note     : The model estimates a decrease of 0.30%.
+
+-------------------------------------------------------------------
+ RISK & TECHNICAL MOMENTUM METRICS
+-------------------------------------------------------------------
+Annualized Volatility (252) : 24.18%
+Maximum Drawdown            : -13.80%
+Average Daily Return        : 0.114%
+Technical Indicator Signal  : BUY
+Signal Rationale            : Bullish alignment: Price is above 20-day MA, 20-day MA is above 50-day MA, RSI > 50, and MACD is above its signal line.
+
+DISCLAIMER: For educational and benchmarking purposes only. Not investment advice.
